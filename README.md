@@ -11,7 +11,7 @@ Here's a brief overview of the mathematical background relevant to your project,
 
 For a dataset with features $X$ and target $y$, the least squares problem is to find the parameter vector $hat{\beta}$ that minimizes the residual sum of squares (RSS):
 
-$\hat{\beta} = \arg\min_{\beta} \|X\beta - y\|^2_2$$
+$$\hat{\beta} = \arg\min_{\beta} \|X\beta - y\|^2_2$$
 
 where:
 - $X$ is an $n \times d$ matrix of features.
